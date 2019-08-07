@@ -1,0 +1,11 @@
+# Read the numbers like this:
+k = int(input())
+n = int(input())
+# Print the result with print()
+
+# Example of division, integer division and remainder:
+# See output below for actual values 
+
+#print(63 / 5)    # example of division 
+print(n // k)   # example of integer division
+print(n % k)    # example of remainder calculation 
