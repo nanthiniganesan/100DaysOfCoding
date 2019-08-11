@@ -1,0 +1,19 @@
+num = int(input())
+rev = int(input())
+ans = ""
+lis = ["","",""]
+
+if '3' in str(num) or num%3 == 0:
+    lis[0] = "Jugs" 
+if '5' in str(num) or num%5 == 0:
+    lis[1] = "Mugs"
+if '7' in str(num) or num%7 == 0:
+    lis[2] = "Pugs"
+
+if rev:
+    lis.reverse()
+  
+for j in lis:
+    ans = ans+j
+  
+print( ans or num)
