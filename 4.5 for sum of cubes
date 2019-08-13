@@ -1,0 +1,8 @@
+# Read an integer:
+# Print a value:
+# print(a)
+val=0
+a=int(input())
+for i in range(1,a+1):
+  val =(i**3)+val
+print(val)
