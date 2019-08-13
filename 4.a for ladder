@@ -1,0 +1,11 @@
+# Read an integer:
+n = int(input())
+# Print a value:
+if n<=9:
+  x=""
+  for i in range(1,n+1):
+    i=str(i)
+    x=x+i
+    print(x)
+else:
+  print("sorry more than 9 digits are not allowed")
