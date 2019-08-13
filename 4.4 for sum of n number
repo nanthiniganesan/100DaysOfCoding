@@ -1,0 +1,6 @@
+# Read an integer:
+# Print a value:
+val=0
+for i in range(int(input())):
+  val=val+(int(input()))
+print(val)
