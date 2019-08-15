@@ -1,0 +1,17 @@
+count = int(input())
+arr = []
+for i in range(count):
+  ID = int(input())
+  flag = False
+  for Id in arr:
+    if Id == ID:
+      flag = True
+  if not flag:
+    arr.append(ID)
+  else:
+    arr.remove(ID)
+  
+if arr:
+  print(arr[0])
+else:
+  print("All arrived!")
