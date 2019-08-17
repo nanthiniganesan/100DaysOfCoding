@@ -1,0 +1,12 @@
+# Read a list of integers:
+# a = [int(s) for s in input().split()]
+# Print a value:
+# print(a)
+x = input()
+lst = list(map(int, x.split()))
+
+for i in range(0, len(lst), 2):
+  popval = lst.pop(i)
+  lst.insert(i+1, popval)
+  
+print(lst)
