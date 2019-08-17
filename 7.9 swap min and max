@@ -1,0 +1,10 @@
+# Read a list of integers:
+# a = [int(s) for s in input().split()]
+# Print a value:
+# print(a)
+lst = list([int(s) for s in input().split()])
+
+max, min = lst.index(max(lst)), lst.index(min(lst))
+lst[max], lst[min] = lst[min], lst[max]
+
+print(lst)
