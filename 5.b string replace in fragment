@@ -1,0 +1,7 @@
+s = input()
+
+s1 = s[s.find("h")+1:s.rfind("h")]
+
+
+print(s[:s.find("h")+1] + s1.replace("h","H") + s[s.rfind("h"):])
+
